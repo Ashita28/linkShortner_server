@@ -6,7 +6,7 @@ const crypto = require("crypto");
 const { UAParser } = require("ua-parser-js");
 const useragent = require("user-agent");
 
-const BASE_URL = "https://adksfhdskjl-b.onrender.com";
+const BASE_URL = "https://linkshortner-server.onrender.com";
 
 // Generate short URL and short Id
 exports.shortUrlHandler = async (req, res) => {
